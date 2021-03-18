@@ -27,14 +27,14 @@ const addNewMovie = (newMovie) =>{
 };
 
 const [keyWord, setKeyWord] = useState("");
-const [keyRate, setKeyRate] = useState(0);
+const [keyRate, setKeyRate] = useState(1);
 
 const search = (word) => {
   setKeyWord(word);
 }
   
     return( 
-    <div>
+    <div className="master">
       <h1>Movies</h1>
       <FilterMovie keyRate={keyRate} setKeyRate={setKeyRate} search={search} />
        <MovieList 

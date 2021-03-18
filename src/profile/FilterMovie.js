@@ -21,7 +21,7 @@ const FilterMovie = ({setKeyRate, search, keyRate}) => {
                  name="keyRate" 
                  starCount={5}
                  value={keyRate}
-                 onStarClick={onStarClick.bind}
+                 onStarClick={onStarClick}
                />
         </div>
     )

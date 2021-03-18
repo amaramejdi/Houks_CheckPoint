@@ -1,8 +1,18 @@
 
-/*@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.master{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+Button{
+  margin-bottom: 10px;
 }
 
 
@@ -14,4 +24,4 @@
   to {
     transform: rotate(360deg);
   }
-}*/
+}
